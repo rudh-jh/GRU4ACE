@@ -1,0 +1,48 @@
+# IDE
+.idea/
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Environments
+.venv/
+venv/
+env/
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local models / caches
+hf_models/
+.cache/
+*.bin
+*.safetensors
+*.pt
+*.pth
+
+# Training artifacts / outputs
+outputs/
+checkpoints/
+logs/
+runs/
+
+# Saved models
+*.keras
+*.h5
+*.joblib
+
+# Numpy / temp artifacts
+*.npy
+
+# Exported local structure files
+structure.txt
