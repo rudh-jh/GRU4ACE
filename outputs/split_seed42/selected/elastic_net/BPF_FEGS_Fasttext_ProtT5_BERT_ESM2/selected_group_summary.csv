@@ -1,0 +1,7 @@
+feature_name,start_col,end_col_exclusive,original_dim,selected_dim,selected_ratio
+BPF,0,441,441,72,0.163265
+FEGS,441,1019,578,84,0.145329
+Fasttext,1019,1139,120,5,0.041667
+ProtT5,1139,2163,1024,63,0.061523
+BERT,2163,2931,768,46,0.059896
+ESM2,2931,3251,320,36,0.1125

@@ -1,0 +1,62 @@
+[
+  {
+    "feature_name": "BPF",
+    "source_file": "BPF_all_441.csv",
+    "full_rows": 1020,
+    "full_cols": 441,
+    "train_rows": 816,
+    "train_cols": 441,
+    "test_rows": 204,
+    "test_cols": 441
+  },
+  {
+    "feature_name": "FEGS",
+    "source_file": "FEGS_all_578.csv",
+    "full_rows": 1020,
+    "full_cols": 578,
+    "train_rows": 816,
+    "train_cols": 578,
+    "test_rows": 204,
+    "test_cols": 578
+  },
+  {
+    "feature_name": "Fasttext",
+    "source_file": "Fasttext_all_120.csv",
+    "full_rows": 1020,
+    "full_cols": 120,
+    "train_rows": 816,
+    "train_cols": 120,
+    "test_rows": 204,
+    "test_cols": 120
+  },
+  {
+    "feature_name": "ProtT5",
+    "source_file": "ProtT5_all_1024.npy",
+    "full_rows": 1020,
+    "full_cols": 1024,
+    "train_rows": 816,
+    "train_cols": 1024,
+    "test_rows": 204,
+    "test_cols": 1024
+  },
+  {
+    "feature_name": "BERT",
+    "source_file": "BERT_all_768.npy",
+    "full_rows": 1020,
+    "full_cols": 768,
+    "train_rows": 816,
+    "train_cols": 768,
+    "test_rows": 204,
+    "test_cols": 768
+  },
+  {
+    "feature_name": "ESM2",
+    "source_file": "ESM2_all_320.npy",
+    "full_rows": 1020,
+    "full_cols": 320,
+    "train_rows": 816,
+    "train_cols": 320,
+    "test_rows": 204,
+    "test_cols": 320
+  }
+]

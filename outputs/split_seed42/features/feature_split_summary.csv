@@ -1,0 +1,7 @@
+feature_name,source_file,full_rows,full_cols,train_rows,train_cols,test_rows,test_cols
+BPF,BPF_all_441.csv,1020,441,816,441,204,441
+FEGS,FEGS_all_578.csv,1020,578,816,578,204,578
+Fasttext,Fasttext_all_120.csv,1020,120,816,120,204,120
+ProtT5,ProtT5_all_1024.npy,1020,1024,816,1024,204,1024
+BERT,BERT_all_768.npy,1020,768,816,768,204,768
+ESM2,ESM2_all_320.npy,1020,320,816,320,204,320

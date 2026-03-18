@@ -1,0 +1,7 @@
+feature_name,start_col,end_col_inclusive,end_col_exclusive,num_cols
+BPF,0,440,441,441
+FEGS,441,1018,1019,578
+Fasttext,1019,1138,1139,120
+ProtT5,1139,2162,2163,1024
+BERT,2163,2930,2931,768
+ESM2,2931,3250,3251,320

@@ -1,0 +1,23 @@
+{
+  "merged_name": "BPF_FEGS",
+  "seed": 42,
+  "train_shape_before_smote": [
+    816,
+    1019
+  ],
+  "test_shape": [
+    204,
+    1019
+  ],
+  "train_shape_after_smote": [
+    996,
+    1019
+  ],
+  "train_positive_before_smote": 318,
+  "train_negative_before_smote": 498,
+  "train_positive_after_smote": 498,
+  "train_negative_after_smote": 498,
+  "test_positive": 76,
+  "test_negative": 128,
+  "model": "LogisticRegression"
+}

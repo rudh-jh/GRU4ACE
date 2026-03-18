@@ -1,0 +1,97 @@
+{
+  "project": "GRU4ACE",
+  "split_scheme": "split_seed42",
+  "dataset": {
+    "total_samples": 1020,
+    "positive": 394,
+    "negative": 626,
+    "train_samples": 816,
+    "test_samples": 204,
+    "train_positive": 318,
+    "train_negative": 498,
+    "test_positive": 76,
+    "test_negative": 128
+  },
+  "mainline": {
+    "feature_groups": [
+      "BPF",
+      "FEGS",
+      "Fasttext",
+      "ProtT5",
+      "BERT",
+      "ESM2"
+    ],
+    "merged_dim": 3251,
+    "selected_dim": 306,
+    "best_model": {
+      "model_name": "GRU_EN306_SMOTE",
+      "category": "mainline",
+      "feature_input": "BPF+FEGS+Fasttext+ProtT5+BERT+ESM2",
+      "feature_dim": 3251,
+      "feature_selection": "Elastic Net",
+      "selected_dim": 306,
+      "sampling": "SMOTE",
+      "backbone": "GRU",
+      "is_mainline": 1,
+      "ACC": 0.843137,
+      "Precision": 0.77127,
+      "NPV": 0.890953,
+      "Sn": 0.823684,
+      "Sp": 0.854687,
+      "MCC": 0.670241,
+      "F1": 0.796461,
+      "AUC": 0.9294,
+      "AUPR": 0.893075,
+      "TN": 109.4,
+      "FP": 18.6,
+      "FN": 13.4,
+      "TP": 62.6,
+      "notes": "当前最佳主结果：EN-306 + SMOTE + GRU",
+      "is_best_current": 1
+    }
+  },
+  "sampling_comparison": [
+    {
+      "metric": "ACC",
+      "RUS": 0.836275,
+      "SMOTE": 0.843137,
+      "SMOTE_minus_RUS": 0.006862
+    },
+    {
+      "metric": "Sn",
+      "RUS": 0.797368,
+      "SMOTE": 0.823684,
+      "SMOTE_minus_RUS": 0.026316
+    },
+    {
+      "metric": "Sp",
+      "RUS": 0.859375,
+      "SMOTE": 0.854687,
+      "SMOTE_minus_RUS": -0.004688
+    },
+    {
+      "metric": "MCC",
+      "RUS": 0.653053,
+      "SMOTE": 0.670241,
+      "SMOTE_minus_RUS": 0.017188
+    },
+    {
+      "metric": "F1",
+      "RUS": 0.783658,
+      "SMOTE": 0.796461,
+      "SMOTE_minus_RUS": 0.012803
+    },
+    {
+      "metric": "AUC",
+      "RUS": 0.918565,
+      "SMOTE": 0.9294,
+      "SMOTE_minus_RUS": 0.010835
+    },
+    {
+      "metric": "AUPR",
+      "RUS": 0.877466,
+      "SMOTE": 0.893075,
+      "SMOTE_minus_RUS": 0.015609
+    }
+  ]
+}

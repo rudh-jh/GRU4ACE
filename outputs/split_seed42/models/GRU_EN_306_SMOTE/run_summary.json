@@ -1,0 +1,21 @@
+{
+  "seed": 42,
+  "n_splits": 5,
+  "batch_size": 28,
+  "epochs": 50,
+  "sampling": "SMOTE",
+  "train_raw_shape": [
+    816,
+    306
+  ],
+  "test_shape": [
+    204,
+    306
+  ],
+  "train_balanced_shape": [
+    996,
+    306
+  ],
+  "model_dir": "E:\\MYS\\GRU4ACE\\outputs\\split_seed42\\models\\GRU_EN_306_SMOTE",
+  "input_dim": 306
+}

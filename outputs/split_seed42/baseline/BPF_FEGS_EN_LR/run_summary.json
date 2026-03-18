@@ -1,0 +1,9 @@
+{
+  "input_dim": 273,
+  "model": "LogisticRegression",
+  "penalty": "l2",
+  "C": 1.0,
+  "solver": "liblinear",
+  "max_iter": 5000,
+  "random_state": 42
+}

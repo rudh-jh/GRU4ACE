@@ -1,0 +1,8 @@
+{
+  "input_dim": 1019,
+  "selected_dim": 273,
+  "l1_ratio": 0.5,
+  "C": 0.1,
+  "max_iter": 5000,
+  "random_state": 42
+}

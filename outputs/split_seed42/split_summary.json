@@ -1,0 +1,14 @@
+{
+  "seed": 42,
+  "total_samples": 1020,
+  "total_positive": 394,
+  "total_negative": 626,
+  "test_positive_fixed": 76,
+  "test_negative_fixed": 128,
+  "train_size": 816,
+  "test_size": 204,
+  "train_positive": 318,
+  "train_negative": 498,
+  "test_positive": 76,
+  "test_negative": 128
+}

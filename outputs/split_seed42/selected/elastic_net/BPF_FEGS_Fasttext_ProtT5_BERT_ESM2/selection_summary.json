@@ -1,0 +1,11 @@
+{
+  "merged_name": "BPF_FEGS_Fasttext_ProtT5_BERT_ESM2",
+  "input_dim": 3251,
+  "selected_dim": 306,
+  "l1_ratio": 0.5,
+  "C": 0.1,
+  "max_iter": 5000,
+  "random_state": 42,
+  "train_size": 816,
+  "test_size": 204
+}
